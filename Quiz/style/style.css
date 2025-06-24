@@ -1,0 +1,26 @@
+body {
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Custom styles for gradients and overlays if needed, though Tailwind handles most */
+.hero-background {
+    background-image: url('https://placehold.co/1200x600/E0E7FF/000000?text=Hero+Image+Placeholder');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.worldwide-bg {
+    background-color: #FF5733; /* A reddish-orange color, similar to the image */
+    color: white;
+}
+
+.worldwide-card {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    backdrop-filter: blur(5px);
+}
